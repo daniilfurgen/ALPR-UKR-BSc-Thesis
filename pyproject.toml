@@ -1,0 +1,17 @@
+[project]
+name = "alpr-ukr-bsc-thesis"
+version = "0.1.0"
+description = "BSc of CS on Automatic Licence Plate Recognition using YOLOv11 and EasyOCR on custom dataset."
+readme = "README.md"
+requires-python = "==3.12.*"
+dependencies = [
+    "opencv-python>=4.13.0.92",
+    "python-pptx>=1.0.2",
+    "seaborn>=0.13.2",
+    "ultralytics>=8.4.41",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+]
